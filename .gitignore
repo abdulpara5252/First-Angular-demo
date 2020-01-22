@@ -1,0 +1,101 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# compiled output
+/dist
+/tmp
+/out-tsc
+# Only exists if Bazel was run
+/bazel-out
+
+# dependencies
+/node_modules
+
+# profiling files
+chrome-profiler-events*.json
+speed-measure-plugin*.json
+
+# IDEs and editors
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history/*
+
+# misc
+/.sass-cache
+/connect.lock
+/coverage
+/libpeerconnection.log
+npm-debug.log
+yarn-error.log
+testem.log
+/typings
+
+# System Files
+.DS_Store
+Thumbs.db
+src/index.html
+src/styles.css
+src/app/app-routing.module.ts
+src/app/app.component.css
+src/app/app.component.html
+src/app/app.component.ts
+src/app/app.module.ts
+src/app/my-service.service.ts
+src/app/about/about.component.css
+src/app/about/about.component.html
+src/app/about/about.component.spec.ts
+src/app/about/about.component.ts
+src/app/contactus/contactus.component.css
+src/app/contactus/contactus.component.html
+src/app/contactus/contactus.component.spec.ts
+src/app/contactus/contactus.component.ts
+src/app/home/home.component.css
+src/app/home/home.component.html
+src/app/home/home.component.spec.ts
+src/app/home/home.component.ts
+src/app/login/login.component.css
+src/app/login/login.component.html
+src/app/login/login.component.spec.ts
+src/app/login/login.component.ts
+src/app/logout/logout.component.css
+src/app/logout/logout.component.html
+src/app/logout/logout.component.spec.ts
+src/app/logout/logout.component.ts
+src/app/pagenotfound/pagenotfound.component.css
+src/app/pagenotfound/pagenotfound.component.html
+src/app/pagenotfound/pagenotfound.component.spec.ts
+src/app/pagenotfound/pagenotfound.component.ts
+src/app/reg/reg.component.css
+src/app/reg/reg.component.html
+src/app/reg/reg.component.spec.ts
+src/app/reg/reg.component.ts
+src/assets/fonts/fontawesome-webfont.eot
+src/assets/fonts/fontawesome-webfont.svg
+src/assets/fonts/fontawesome-webfont.ttf
+src/assets/fonts/fontawesome-webfont.woff
+src/assets/fonts/fontawesome-webfont.woff2
+src/assets/fonts/FontAwesome.otf
+src/assets/fonts/Plain-Bold.woff
+src/assets/fonts/Plain-Bold.woff2
+src/assets/fonts/Plain-Light.woff
+src/assets/fonts/Plain-Light.woff2
+src/assets/fonts/Plain-Regular.woff
+src/assets/fonts/Plain-Regular.woff2
+src/assets/images/hero-bg.jpg
+src/assets/images/class/cardio-class.jpg
+src/assets/images/class/crossfit-class.jpg
+src/assets/images/class/yoga-class.jpg
+src/assets/images/team/team-image.jpg
+src/assets/images/team/team-image01.jpg
+.vscode/launch.json
